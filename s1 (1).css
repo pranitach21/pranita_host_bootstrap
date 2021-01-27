@@ -1,0 +1,92 @@
+ *{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+[class|=jumbotron] {
+	width: 100%;
+	height: 140px;
+	text-align: center;
+	font-family: Bradley Hand ITC;
+}
+h3::first-line {
+	color: #ff0000;
+	font-variant: small-caps;
+}
+.cont {
+	margin-left: 5%;
+}
+.cont .abc h5 {
+	margin-left: 5%: 
+}
+.cont .abc .imgs img {
+	border: 1px solid black;
+	width: 200px;
+	height: 250px;
+	border-radius: 50%;
+}
+.cont .abc hr {
+	width: 30%;
+}
+.cont .abc h3 {
+	font-family: Segoe Print;
+}
+.cont .abc h5 {
+	font-family: Courier New;
+}
+.cont .xyz {
+	margin-top: -40%;
+	margin-right: 10%;
+}
+.cont .xyz h3 {
+	margin-left: 50%;
+	font-family: Segoe Print;
+}
+.cont .xyz h5 {
+	display: none;
+	margin-left: 50%;
+	font-family: Courier New;
+}
+div :hover .hlo {
+  display: block;
+}
+.cont hr {
+	margin-right: 50px;
+}
+.wht .jumbotron {
+	margin-top: 35%;	
+	text-align: center;
+}
+@media (min-width: 992px) {
+  .cont {
+    float: left;
+    width: 33.33%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .abc {
+    float: left;
+  }
+  .xyz {
+    width: 50%;
+  }
+  /*.wht {
+    margin-left: -10px;
+    width: 100%;
+  }*/
+  .n3{
+    margin-right: 65px;
+    width: 100px;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 767px) {
+  .col-sm-12 {
+    float: left;
+    width: 100%;
+  }
+  .c-name{
+    margin-right: 30px;
+  }
+}
